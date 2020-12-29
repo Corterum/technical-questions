@@ -1,6 +1,6 @@
 import { sumIsOdd, fizzBuzzArray, objectFetch } from './code';
 
-xdescribe('Sum is Odd', () => {
+describe('Sum is Odd', () => {
     it('should return true if inputs are added to be Odd', () => {
         expect(sumIsOdd(1, 2)).toBe(true);
     });
@@ -10,7 +10,7 @@ xdescribe('Sum is Odd', () => {
     });
 });
 
-xdescribe('FizzBuzzArray', () => {
+describe('FizzBuzzArray', () => {
     it('should return the correct array for a length of 8', () => {
         expect(fizzBuzzArray(8)).toEqual([
             1, 2, 'fizz', 4, 'buzz', 'fizz', 7, 8
